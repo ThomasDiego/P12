@@ -1,0 +1,35 @@
+.leftBar {
+  width: 117px;
+  height: 100vh;
+  background-color: #020203;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: -91px;
+  min-width: 117px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.itemMenu {
+  width: 65px;
+  height: 65px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.itemMenu:hover {
+  filter: brightness(0.9);
+}
+.copyright {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  align-self: center;
+  rotate: 180deg;
+  font-size: 12px;
+}

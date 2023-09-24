@@ -1,0 +1,46 @@
+.stat {
+  padding: 15px;
+  background: #fbfbfb;
+  border-radius: 5px;
+  display: flex;
+  gap: 25px;
+  min-width: 180px;
+  align-items: center;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+}
+.iconImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.content {
+  align-self: center;
+}
+
+.value {
+  color: #282d30;
+  font-size: 20px;
+  font-weight: 700;
+}
+.name {
+  color: #74798c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Lipides {
+  background-color: #fd5181;
+}
+
+.Glucides {
+  background-color: #fdcc0c;
+}
+
+.Proteines {
+  background-color: #4ab8ff1a;
+}

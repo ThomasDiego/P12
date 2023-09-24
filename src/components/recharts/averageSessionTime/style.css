@@ -1,0 +1,17 @@
+.custom-tooltip {
+    color: black;
+    padding: 5px 10px;
+    font-size: 8px;
+    line-height: 24px;
+    background-color: #282d30;
+}
+.title{
+    position: absolute;
+    color: #ffffffc2;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}

@@ -1,0 +1,26 @@
+.chartTitle {
+  position: absolute;
+  text-align: center;
+}
+
+.chartTitlePourcentage {
+  font-size: 34px;
+  font-weight: 700;
+  color: #282d30;
+}
+
+.chartTitleText {
+  color: #74798c;
+}
+
+.chartTitlez {
+  position: absolute;
+  color: #20253a;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 14px;
+  top: 20px;
+  left: 20px;
+}

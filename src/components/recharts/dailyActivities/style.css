@@ -1,0 +1,53 @@
+.dailyActivities {
+  border-radius: 5px;
+  background: #fbfbfb;
+  padding: 25px;
+}
+.bottomChart {
+  padding: 10px 0;
+}
+.recharts-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+.recharts-surface {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+.topChart {
+  display: flex;
+  justify-content: space-between;
+}
+.titleChart {
+  font-weight: 500;
+}
+.titleLegend {
+  display: flex;
+  gap: 30px;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li:nth-of-type(1)::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #282d30;
+  border-radius: 50%;
+}
+
+li:nth-of-type(2)::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #e60000;
+  border-radius: 50%;
+}
