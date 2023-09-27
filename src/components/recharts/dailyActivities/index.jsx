@@ -46,7 +46,6 @@ export default function DailyActivities(props) {
             <XAxis dataKey="name" tickLine={false} />
             <YAxis orientation="right" />
             <Tooltip content={<CustomTooltip />} />
-            <ReferenceLine y={0} stroke="#000" />
             <Bar
                 dataKey="kg"
                 fill="#282D30"
